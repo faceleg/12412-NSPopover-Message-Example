@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'NSPopover Message Category' target in the 'NSPopover Message Category' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define MODAL_ALERT_FEEDBACK 0
+#define SHEET_ALERT_FEEDBACK 1
+#define POPOVER_FEEDBACK 2

@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C65538E150C803400F64287 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C65538D150C803400F64287 /* Cocoa.framework */; };
+		7C655398150C803400F64287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C655396150C803400F64287 /* InfoPlist.strings */; };
+		7C65539A150C803400F64287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C655399150C803400F64287 /* main.m */; };
+		7C65539E150C803400F64287 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7C65539C150C803400F64287 /* Credits.rtf */; };
+		7C6553A1150C803400F64287 /* COIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6553A0150C803400F64287 /* COIAppDelegate.m */; };
+		7C6553A4150C803500F64287 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C6553A2150C803500F64287 /* MainMenu.xib */; };
+		7C6553B0150C866F00F64287 /* NSPopover+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6553AE150C866F00F64287 /* NSPopover+Message.m */; };
+		7C6553B1150C866F00F64287 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6553AF150C866F00F64287 /* NSString+Size.m */; };
+		7C6553B3150C8C9800F64287 /* faceleg_icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7C6553B2150C8C9800F64287 /* faceleg_icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C655389150C803400F64287 /* NSPopover Message Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSPopover Message Category.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C65538D150C803400F64287 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7C655390150C803400F64287 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7C655391150C803400F64287 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7C655392150C803400F64287 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C655395150C803400F64287 /* NSPopover Message Category-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSPopover Message Category-Info.plist"; sourceTree = "<group>"; };
+		7C655397150C803400F64287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C655399150C803400F64287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C65539B150C803400F64287 /* NSPopover Message Category-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSPopover Message Category-Prefix.pch"; sourceTree = "<group>"; };
+		7C65539D150C803400F64287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7C65539F150C803400F64287 /* COIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COIAppDelegate.h; sourceTree = "<group>"; };
+		7C6553A0150C803400F64287 /* COIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COIAppDelegate.m; sourceTree = "<group>"; };
+		7C6553A3150C803500F64287 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7C6553AC150C866F00F64287 /* NSPopover+Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPopover+Message.h"; sourceTree = "<group>"; };
+		7C6553AD150C866F00F64287 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		7C6553AE150C866F00F64287 /* NSPopover+Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPopover+Message.m"; sourceTree = "<group>"; };
+		7C6553AF150C866F00F64287 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		7C6553B2150C8C9800F64287 /* faceleg_icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = faceleg_icon.icns; path = ../faceleg_icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C655386150C803400F64287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C65538E150C803400F64287 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C65537E150C803400F64287 = {
+			isa = PBXGroup;
+			children = (
+				7C655393150C803400F64287 /* NSPopover Message Category */,
+				7C65538C150C803400F64287 /* Frameworks */,
+				7C65538A150C803400F64287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C65538A150C803400F64287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C655389150C803400F64287 /* NSPopover Message Category.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C65538C150C803400F64287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C65538D150C803400F64287 /* Cocoa.framework */,
+				7C65538F150C803400F64287 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C65538F150C803400F64287 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C655390150C803400F64287 /* AppKit.framework */,
+				7C655391150C803400F64287 /* CoreData.framework */,
+				7C655392150C803400F64287 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7C655393150C803400F64287 /* NSPopover Message Category */ = {
+			isa = PBXGroup;
+			children = (
+				7C6553AA150C866F00F64287 /* Categories */,
+				7C65539F150C803400F64287 /* COIAppDelegate.h */,
+				7C6553A0150C803400F64287 /* COIAppDelegate.m */,
+				7C6553A2150C803500F64287 /* MainMenu.xib */,
+				7C655394150C803400F64287 /* Supporting Files */,
+			);
+			path = "NSPopover Message Category";
+			sourceTree = "<group>";
+		};
+		7C655394150C803400F64287 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C6553B2150C8C9800F64287 /* faceleg_icon.icns */,
+				7C655395150C803400F64287 /* NSPopover Message Category-Info.plist */,
+				7C655396150C803400F64287 /* InfoPlist.strings */,
+				7C655399150C803400F64287 /* main.m */,
+				7C65539B150C803400F64287 /* NSPopover Message Category-Prefix.pch */,
+				7C65539C150C803400F64287 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C6553AA150C866F00F64287 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7C6553AB150C866F00F64287 /* Headers */,
+				7C6553AE150C866F00F64287 /* NSPopover+Message.m */,
+				7C6553AF150C866F00F64287 /* NSString+Size.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		7C6553AB150C866F00F64287 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				7C6553AC150C866F00F64287 /* NSPopover+Message.h */,
+				7C6553AD150C866F00F64287 /* NSString+Size.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C655388150C803400F64287 /* NSPopover Message Category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6553A7150C803500F64287 /* Build configuration list for PBXNativeTarget "NSPopover Message Category" */;
+			buildPhases = (
+				7C655385150C803400F64287 /* Sources */,
+				7C655386150C803400F64287 /* Frameworks */,
+				7C655387150C803400F64287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSPopover Message Category";
+			productName = "NSPopover Message Category";
+			productReference = 7C655389150C803400F64287 /* NSPopover Message Category.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C655380150C803400F64287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = COI;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ECPod;
+			};
+			buildConfigurationList = 7C655383150C803400F64287 /* Build configuration list for PBXProject "NSPopover Message Category" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C65537E150C803400F64287;
+			productRefGroup = 7C65538A150C803400F64287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C655388150C803400F64287 /* NSPopover Message Category */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C655387150C803400F64287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C655398150C803400F64287 /* InfoPlist.strings in Resources */,
+				7C65539E150C803400F64287 /* Credits.rtf in Resources */,
+				7C6553A4150C803500F64287 /* MainMenu.xib in Resources */,
+				7C6553B3150C8C9800F64287 /* faceleg_icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C655385150C803400F64287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C65539A150C803400F64287 /* main.m in Sources */,
+				7C6553A1150C803400F64287 /* COIAppDelegate.m in Sources */,
+				7C6553B0150C866F00F64287 /* NSPopover+Message.m in Sources */,
+				7C6553B1150C866F00F64287 /* NSString+Size.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C655396150C803400F64287 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C655397150C803400F64287 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C65539C150C803400F64287 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C65539D150C803400F64287 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7C6553A2150C803500F64287 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C6553A3150C803500F64287 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C6553A5150C803500F64287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7C6553A6150C803500F64287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7C6553A8150C803500F64287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSPopover Message Category/NSPopover Message Category-Prefix.pch";
+				INFOPLIST_FILE = "NSPopover Message Category/NSPopover Message Category-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C6553A9150C803500F64287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSPopover Message Category/NSPopover Message Category-Prefix.pch";
+				INFOPLIST_FILE = "NSPopover Message Category/NSPopover Message Category-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C655383150C803400F64287 /* Build configuration list for PBXProject "NSPopover Message Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6553A5150C803500F64287 /* Debug */,
+				7C6553A6150C803500F64287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6553A7150C803500F64287 /* Build configuration list for PBXNativeTarget "NSPopover Message Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6553A8150C803500F64287 /* Debug */,
+				7C6553A9150C803500F64287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C655380150C803400F64287 /* Project object */;
+}

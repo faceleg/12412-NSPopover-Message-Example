@@ -14,8 +14,19 @@
 + (void) showRelativeToRect:(NSRect)rect
                      ofView:(NSView *)view
               preferredEdge:(NSRectEdge)edge
-                 string:(NSString *)string   
+                     string:(NSString *)string   
                    maxWidth:(float)width {
+    [NSPopover showRelativeToRect:rect ofView:view preferredEdge:edge string:string maxWidth:width];
+    
+}
+
++ (void) showRelativeToRect:(NSRect)rect
+                     ofView:(NSView *)view
+              preferredEdge:(NSRectEdge)edge
+                 string:(NSString *)string   
+                   maxWidth:(float)width
+                      color:(NSColor *)color
+                       font:(NSFont *)font {
 
     
     float padding = 5;
@@ -34,6 +45,13 @@
     [label setSelectable:NO];
     [label setStringValue:string];
     [[label cell] setLineBreakMode:NSLineBreakByWordWrapping];
+    
+    if (color) {
+        [label setTextColor:color];
+    }
+    if (font) {
+        [label setFont:font];
+    }
     
     NSView *container = [[NSView alloc] initWithFrame:popoverRect];
     [container addSubview:label];

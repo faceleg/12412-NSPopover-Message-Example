@@ -16,4 +16,11 @@
                      string:(NSString *)string   
                    maxWidth:(float)width;
 
++ (void) showRelativeToRect:(NSRect)rect
+                     ofView:(NSView *)view
+              preferredEdge:(NSRectEdge)edge
+                     string:(NSString *)string   
+                   maxWidth:(float)width
+                      color:(NSColor *)color
+                       font:(NSFont *)font;
 @end
